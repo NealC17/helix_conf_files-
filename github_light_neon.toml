@@ -1,0 +1,55 @@
+inherits = "github_light"
+theme = "github_light_neon"
+# =========================
+# MAIN TEXT (BRIGHTER)
+# =========================
+[ui.text]
+fg = "#000000"
+
+[ui.text.focus]
+fg = "#000000"
+
+# =========================
+# SELECTION (LOUD)
+# =========================
+[ui.selection]
+bg = "#A5F3FC"
+fg = "#000000"
+
+# =========================
+# CURSOR
+# =========================
+[ui.cursor]
+bg = "#00E5FF"
+fg = "#000000"
+
+[ui.cursor.primary]
+bg = "#00E5FF"
+fg = "#000000"
+
+# =========================
+# STATUS LINE (BRIGHT TEXT)
+# =========================
+[ui.statusline]
+bg = "#E5E7EB"
+fg = "#000000"
+
+[ui.statusline.active]
+bg = "#020617"
+fg = "#18FFFF"
+
+# =========================
+# DIAGNOSTICS (NEON)
+# =========================
+[diagnostic.error]
+fg = "#FF0033"
+
+[diagnostic.warning]
+fg = "#FFD600"
+
+[diagnostic.info]
+fg = "#2962FF"
+
+[diagnostic.hint]
+fg = "#00E5FF"
+

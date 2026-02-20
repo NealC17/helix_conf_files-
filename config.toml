@@ -1,0 +1,57 @@
+# =========================
+# BASIC EDITOR BEHAVIOR
+# =========================
+theme = "github_light"
+
+[editor]
+line-number = "relative"
+mouse = true
+cursorline = true
+true-color = true
+auto-save = false
+completion-trigger-len = 1
+idle-timeout = 50
+
+
+[editor.cursor-shape]
+normal = "block"
+insert = "bar"
+select = "block"
+
+[editor.statusline]
+left = ["mode", "spinner", "file-name"]
+center = ["diagnostics"]
+right = ["position", "file-encoding", "file-line-ending", "file-type"]
+
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.lsp]
+display-messages = true
+display-inlay-hints = true
+
+[editor.inline-diagnostics]
+cursor-line = "warning"
+other-lines = "error"
+
+[editor.whitespace.render]
+space = "none"
+tab = "none"
+newline = "none"
+
+# =========================
+# INDENTATION
+# =========================
+[editor.indent-guides]
+render = true
+character = "│"
+skip-levels = 1
+
+# =========================
+# SEARCH
+# =========================
+[editor.search]
+smart-case = true
+wrap-around = true
+
